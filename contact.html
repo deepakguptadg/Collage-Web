@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Largest Coaching Center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.min.css">
+    <script src="font.min.js"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png"  ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cources.html">Cource</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-------contact------->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28945.699854653565!2d84.17294188329329!3d24.924830427493955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398da92f91dc4035%3A0xe4d3b748fff059cb!2sDalmianagar%2C%20Dehri%2C%20Bihar!5e0!3m2!1sen!2sin!4v1616557374194!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             
+        </section>
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Dalmianagar ,Dehri-on-sone</h5>
+                            <p>Dist-Rohtas (Bihar), IND</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+91 7542899203</h5>
+                            <p>Only Sunday 9AM to 2PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                            <h5>deepakgupta30400@gmail.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="" method="post">
+                        <input type="text" name="" id="" placeholder="Enter Your Name" required>
+                        <input type="email" name="" id="" placeholder="Enter Your Email Address" required>
+                        <input type="text" name="" id="" placeholder="Enter Your Subject" required>
+                        <textarea name="" id="" cols="" rows="8" placeholder="Write Massage" required></textarea>
+                        <button type="submit" class="contact-btn">Send Massage</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    <!-------End contact------->
+ 
+     <!--------Footer---------->
+     <section class="footer">
+        <h4>about us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque harum eligendi rerum dolores 
+            unde quia consequuntur, saepe porro dolore laborum.
+        </p>
+        <div class="icons">
+            <!-- <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i> -->
+
+            <a href=""><img src="ImgSocial/fb.png"></a>
+            <a href=""><img src="ImgSocial/insta.png"></a>
+            <a href=""><img src="ImgSocial/twitter.png"></a>
+            <a href=""><img src="ImgSocial/youtube.png"></a>
+        </div>
+        <p>Design & Developed &copy; by <a href="">Codding With Deepak</a></p>
+     </section>
+     <!--------End  Footer---------->
+
+
+
+
+
+    <!-- Menu Bar Toggle Using JS -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
